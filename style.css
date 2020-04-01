@@ -1,0 +1,55 @@
+body{
+    height:100%;
+    width:100%;
+ background-image:  url('/img/bgimg/bg26.jpg');
+ background-position: 0% 9%;
+ background-size:cover;
+ background-repeat: no-repeat;
+}
+.signin{margin-top: 10px;
+}
+
+
+#myCarousel
+{
+    width:100%;
+    height: 550px;
+    margin-top: 5px;
+    display: -webkit-box;
+    display: -webkit-flex;
+          
+}
+.img
+{
+    width:80px;
+     margin-bottom: 5px;
+}
+
+#mobile-footer {
+    position:relative;
+    bottom: 0px;
+    width: 100%;
+    
+   
+}
+#mobile-menu {
+    background: hsla(213, 48%, 69%,.8);
+}
+#mobile-footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.mobile-link {
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+}
+.mobile-link a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+#mobile-footer-close {
+    position: relative;
+}
